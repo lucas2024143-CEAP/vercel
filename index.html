@@ -3,11 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Site Pessoal no Vercel</title>
+
+    <style>
+        /* Define a fonte e remove margens padrão do corpo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9; /* Fundo cinza claro */
+            color: #333; /* Cor do texto principal */
+        }
+
+        /* Estilo do cabeçalho principal */
+        header {
+            background-color: #0070f3; /* Azul do Vercel */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Estilo para a navegação (menu) */
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #d1e5ff; /* Cor mais clara ao passar o mouse */
+        }
+
+        /* Estilo para a seção principal de conteúdo */
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            border-radius: 8px;
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ccc;
+            color: #333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>Site vercel</h1>
-    </center>
+
+    <header>
+        <h1>[Seu Nome ou Nome do Projeto]</h1>
+        <p>Desenvolvedor | Criador de Conteúdo | Entusiasta Vercel</p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="mailto:seu.email@exemplo.com">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container" id="sobre">
+        <h2>👋 Olá! Bem-vindo(a) ao meu site.</h2>
+        <p>
+            Esta página foi **rapidamente desenvolvida e hospedada no Vercel**!
+            <br><br>
+            Eu sou [Seu Nome] e adoro construir coisas na web. Minha paixão é usar tecnologias modernas como **React, Next.js ou HTML/CSS simples** para criar experiências rápidas e acessíveis.
+            <br><br>
+            Use os links acima para navegar e saber mais!
+        </p>
+    </div>
+
+    <div class="container" id="projetos">
+        <h2>🚀 Meus Projetos</h2>
+        <ul>
+            <li>**Projeto 1:** Site de e-commerce usando Next.js.</li>
+            <li>**Projeto 2:** Blog pessoal com Markdown e Vercel.</li>
+            <li>**Projeto 3:** Aplicação simples em HTML/CSS.</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2025 [Seu Nome/Projeto]. Feito com ❤️ e Vercel.
+    </footer>
+
 </body>
 </html>
